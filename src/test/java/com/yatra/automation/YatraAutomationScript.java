@@ -144,8 +144,7 @@ public class YatraAutomationScript {
     }
 
     private static String formatPriceOutput(String rawPriceString) {
-        // Raw string: e.g. "Choose Tuesday, September 16th, 2025---Price is Rs4704"
-        // Format to: "Tuesday, September 16th, 2025 — Price: Rs 4704"
+       
         if (rawPriceString == null || rawPriceString.isEmpty() || rawPriceString.equals("No price data found")) {
             return "No price data found";
         }
